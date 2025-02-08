@@ -17,6 +17,8 @@ st.write("Find meal options available based on your dining preferences!")
 # User Inputs
 meal_time = st.selectbox("Select Meal Time", ["breakfast", "lunch", "dinner"])
 dining_hall = st.selectbox("Select Dining Hall", list(meal_data[meal_time].keys()))
+user_goal = st.selectbox("Select Weight Goal", ["lose weight", "gain weight", "maintain"])
+exercise_amt = st.text_input("How much exercise do you do weekly in hours?", 0)
 
 # Function to recommend meal
 def recommend_meal(meal_time, dining_hall):
