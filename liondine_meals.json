@@ -1,0 +1,474 @@
+{
+    "breakfast": {
+        "Ferris": {
+            "hours": "9:00 AM to 11:00 AM",
+            "menu": {
+                "Main Line": [
+                    "French Toast",
+                    "Scrambled Eggs",
+                    "Hash Brown Patty",
+                    "Ham",
+                    "Turkey Sausage",
+                    "Biscuits and Sausage Gravy"
+                ],
+                "Vegan Station": [
+                    "Roasted Carrots",
+                    "Just Egg",
+                    "Roasted Potatoes"
+                ]
+            }
+        },
+        "JJ's": {
+            "hours": "12:00 AM to 10:00 AM",
+            "menu": {
+                "Action Station": [
+                    "Chicken Sausage, Egg, and Cheese on a Waffle",
+                    "Smores Crepe",
+                    "Vegan Egg Sandwich"
+                ],
+                "Main Line": [
+                    "Rodeo Burger",
+                    "Buffalo Chicken Mac and Cheese",
+                    "Spicy Korean Beef Sandwich",
+                    "Vegan Pesto Chicken Pasta",
+                    "Rodeo Grilled Cheese"
+                ],
+                "Fry Station": [
+                    "Chicken Wings",
+                    "Mozzarella Sticks",
+                    "Spicy Fries"
+                ],
+                "Grill": [
+                    "Apple Pie Pancakes"
+                ]
+            }
+        },
+        "Faculty House": {
+            "hours": "Closed for breakfast",
+            "menu": {}
+        },
+        "Chef Mike's": {
+            "hours": "Closed for breakfast",
+            "menu": {}
+        },
+        "Johnny's": {
+            "hours": "Closed for breakfast",
+            "menu": {}
+        },
+        "Fac Shack": {
+            "hours": "Closed for breakfast",
+            "menu": {}
+        },
+        "John Jay": {
+            "hours": "Closed for breakfast",
+            "menu": {}
+        },
+        "Hewitt": {
+            "hours": "10:30 AM to 3:00 PM",
+            "menu": {
+                "500 Degrees": [
+                    "Greek Pizza",
+                    "Chicken Taco Pizza",
+                    "White Pesto Pizza with Broccoli"
+                ],
+                "Delicious Without": [
+                    "Roasted Vegetables",
+                    "Brown Rice",
+                    "Cilantro Brown Rice",
+                    "Herb Crusted Chicken",
+                    "Mixed Green Salad",
+                    "Spinach Salad",
+                    "Fresh Fruit Salad",
+                    "Roasted Sweet Potatoes"
+                ],
+                "The Sweet Shoppe": [
+                    "Double Chocolate Chip Muffin",
+                    "Blueberry Muffin",
+                    "Cranberry Muffin",
+                    "Corn Muffin",
+                    "Croissant",
+                    "Chocolate Croissant"
+                ],
+                "Fuel": [
+                    "Low Fat Strawberry Yogurt",
+                    "Low Fat Vanilla Yogurt",
+                    "Homemade Granola",
+                    "4% Full Fat Cottage Cheese",
+                    "Cubed Honeydew",
+                    "Cubed Cantaloupe",
+                    "Cubed Pineapple"
+                ],
+                "Homestyle": [
+                    "French Toast",
+                    "Spinach Mushroom Egg White Frittata",
+                    "Buttermilk Pancakes",
+                    "Grilled Tofu",
+                    "Chicken Sausage Patty",
+                    "Vegan Sausage Patty"
+                ],
+                "Cucina": [
+                    "Scrambled Eggs",
+                    "Diced Potato, Pepper, and Onion Hash",
+                    "Turkey Meatloaf with Gravy",
+                    "Black Beans & Brown Rice",
+                    "Avocado Toast",
+                    "Roasted Brussels Sprouts"
+                ],
+                "Flame": [
+                    "Scrambled Eggs",
+                    "Free Range Eggs",
+                    "Egg White Omelet",
+                    "Chopped Onion",
+                    "Diced Red Bell Peppers",
+                    "Roasted Mushroom",
+                    "Sauteed Spinach",
+                    "Chopped Tomatoes",
+                    "Cheddar Cheese",
+                    "Shredded Mozzarella Cheese"
+                ],
+                "Fresh 52": [
+                    "Spring Mix",
+                    "Chopped Romaine Lettuce",
+                    "Baby Spinach",
+                    "Sliced Red Onion",
+                    "Sliced Cucumber",
+                    "Cherry Tomatoes",
+                    "Mandarin Orange Sections",
+                    "Croutons",
+                    "Fat Free Raspberry Dressing",
+                    "Fat Free Italian Dressing",
+                    "Buttermilk Ranch Dressing",
+                    "Caesar Dressing",
+                    "Balsamic Vinegar",
+                    "Extra Virgin Olive Oil"
+                ],
+                "Soup": [
+                    "Lemon Orzo Chicken Soup",
+                    "Crackers, Saltine, 2 CT, Zesta",
+                    "Crackers, Oyster, Zesta, Keebler, 0.5 oz"
+                ]
+            }
+        },
+        "Grace Dodge": {
+            "hours": "Closed for breakfast",
+            "menu": {}
+        },
+        "Diana": {
+            "hours": "Closed for breakfast",
+            "menu": {}
+        },
+        "Chef Don's": {
+            "hours": "Closed for breakfast",
+            "menu": {}
+        }
+    },
+    "lunch": {
+        "Ferris": {
+            "hours": "11:00 AM to 5:00 PM",
+            "menu": {
+                "Action Station": [
+                    "Bagel Bar: Bagels: plain, egg, cinnamon raisin, onion, pumpernickel Spreads: smoked salmon, blueberry, cinnamon raisin, veggie, vegan"
+                ],
+                "Vegan Station": [
+                    "Sweet Potatoes",
+                    "Peri Peri Tofu",
+                    "Corn"
+                ]
+            }
+        },
+        "JJ's": {
+            "hours": "12:00 PM to midnight",
+            "menu": {
+                "Main Line": [
+                    "Rodeo Burger",
+                    "Buffalo Chicken Mac and Cheese",
+                    "Spicy Korean Beef Sandwich",
+                    "Vegan Pesto Chicken Pasta",
+                    "Rodeo Grilled Cheese"
+                ],
+                "Fry Station": [
+                    "Chicken Wings",
+                    "Mozzarella Sticks",
+                    "Spicy Fries"
+                ],
+                "Grill": [
+                    "Apple Pie Pancakes"
+                ]
+            }
+        },
+        "Faculty House": {
+            "hours": "Closed for lunch",
+            "menu": {}
+        },
+        "Chef Mike's": {
+            "hours": "Closed for lunch",
+            "menu": {}
+        },
+        "Johnny's": {
+            "hours": "Closed for lunch",
+            "menu": {}
+        },
+        "Fac Shack": {
+            "hours": "Closed for lunch",
+            "menu": {}
+        },
+        "John Jay": {
+            "hours": "Closed for lunch",
+            "menu": {}
+        },
+        "Hewitt": {
+            "hours": "10:30 AM to 3:00 PM",
+            "menu": {
+                "Homestyle": [
+                    "French Toast",
+                    "Spinach Mushroom Egg White Frittata",
+                    "Buttermilk Pancakes",
+                    "Grilled Tofu",
+                    "Chicken Sausage Patty",
+                    "Vegan Sausage Patty"
+                ],
+                "Flame": [
+                    "Scrambled Eggs",
+                    "Free Range Eggs",
+                    "Egg White Omelet",
+                    "Chopped Onion",
+                    "Diced Red Bell Peppers",
+                    "Roasted Mushroom",
+                    "Sauteed Spinach",
+                    "Chopped Tomatoes",
+                    "Cheddar Cheese",
+                    "Shredded Mozzarella Cheese"
+                ],
+                "Cucina": [
+                    "Scrambled Eggs",
+                    "Diced Potato, Pepper, and Onion Hash",
+                    "Turkey Meatloaf with Gravy",
+                    "Black Beans & Brown Rice",
+                    "Avocado Toast",
+                    "Roasted Brussels Sprouts"
+                ],
+                "Delicious Without": [
+                    "Roasted Vegetables",
+                    "Brown Rice",
+                    "Cilantro Brown Rice",
+                    "Herb Crusted Chicken",
+                    "Mixed Green Salad",
+                    "Spinach Salad",
+                    "Fresh Fruit Salad",
+                    "Roasted Sweet Potatoes"
+                ],
+                "The Sweet Shoppe": [
+                    "Blueberries",
+                    "Sliced Peaches",
+                    "Maraschino Cherries",
+                    "Pineapple Tidbits",
+                    "Whipped Cream",
+                    "Strawberry Compote"
+                ],
+                "Fuel": [
+                    "Croissant",
+                    "Assorted Donuts",
+                    "Country Corn Muffin",
+                    "Cranberry Muffin",
+                    "Chocolate Croissant",
+                    "Blueberry Muffin",
+                    "Apple Turnover",
+                    "Assorted Danish"
+                ],
+                "500 Degrees": [
+                    "Greek Pizza",
+                    "Chicken Taco Pizza",
+                    "White Pesto Pizza with Broccoli"
+                ],
+                "Fresh 52": [
+                    "Spring Mix",
+                    "Chopped Romaine Lettuce",
+                    "Baby Spinach",
+                    "Sliced Red Onion",
+                    "Sliced Cucumber",
+                    "Cherry Tomatoes",
+                    "Mandarin Orange Sections",
+                    "Croutons",
+                    "Fat Free Raspberry Dressing",
+                    "Fat Free Italian Dressing",
+                    "Buttermilk Ranch Dressing",
+                    "Caesar Dressing",
+                    "Balsamic Vinegar",
+                    "Extra Virgin Olive Oil"
+                ],
+                "Soup": [
+                    "Lemon Orzo Chicken Soup",
+                    "Crackers, Saltine, 2 CT, Zesta",
+                    "Crackers, Oyster, Zesta, Keebler, 0.5 oz"
+                ]
+            }
+        },
+        "Grace Dodge": {
+            "hours": "Closed for lunch",
+            "menu": {}
+        },
+        "Diana": {
+            "hours": "Closed for lunch",
+            "menu": {}
+        },
+        "Chef Don's": {
+            "hours": "Closed for lunch",
+            "menu": {}
+        }
+    },
+    "dinner": {
+        "Ferris": {
+            "hours": "5:00 PM to 8:00 PM",
+            "menu": {
+                "Main Line": [
+                    "Beef Stir Fry",
+                    "Soba Noodles",
+                    "Edamame",
+                    "Eggs Rolls",
+                    "Broccoli and Garlic"
+                ],
+                "Vegan Station": [
+                    "Jackfruit Stir Fry",
+                    "Edamame",
+                    "Broccoli and Garlic"
+                ],
+                "Action Station": [
+                    "Halal Cart: Curly fries, halal chicken, falafel, lettuce, tomato, onions, pita, tzatziki"
+                ]
+            }
+        },
+        "JJ's": {
+            "hours": "12:00 PM to midnight",
+            "menu": {
+                "Main Line": [
+                    "Rodeo Burger",
+                    "Buffalo Chicken Mac and Cheese",
+                    "Spicy Korean Beef Sandwich",
+                    "Vegan Pesto Chicken Pasta",
+                    "Rodeo Grilled Cheese",
+                    "Pepperoni Pizza Eggroll"
+                ],
+                "Fry Station": [
+                    "Chicken Wings",
+                    "Mozzarella Sticks",
+                    "Spicy Fries"
+                ],
+                "Grill": [
+                    "Apple Pie Pancakes"
+                ]
+            }
+        },
+        "Faculty House": {
+            "hours": "Closed for dinner",
+            "menu": {}
+        },
+        "Chef Mike's": {
+            "hours": "Closed for dinner",
+            "menu": {}
+        },
+        "Johnny's": {
+            "hours": "7:00 PM to 11:00 PM",
+            "menu": {}
+        },
+        "Fac Shack": {
+            "hours": "Closed for dinner",
+            "menu": {}
+        },
+        "John Jay": {
+            "hours": "Closed for dinner",
+            "menu": {}
+        },
+        "Hewitt": {
+            "hours": "4:30 PM to 8:00 PM",
+            "menu": {
+                "500 Degrees": [
+                    "Cheese Pizza",
+                    "Pepperoni Pizza",
+                    "Vegetable Cheese Pizza",
+                    "2Mato's Vegan Veggie Pizza",
+                    "Tomato Pie Style Pizza",
+                    "Parmesan Cheese",
+                    "Crushed Red Pepper",
+                    "Dried Oregano"
+                ],
+                "Homestyle": [
+                    "Baked Chicken",
+                    "Rice Pilaf",
+                    "Broiled Tilapia",
+                    "Chipotle BBQ Sauce",
+                    "Crispy Baked Tofu",
+                    "Steamed Broccoli",
+                    "Grilled Tofu"
+                ],
+                "Flame": [
+                    "Hamburger Patty",
+                    "Whole Wheat Hamburger Bun",
+                    "American Cheese Slice",
+                    "Hot Dog",
+                    "Grilled Chicken",
+                    "Sliced Red Onion",
+                    "Lettuce Leaf",
+                    "Meatless Black Bean Burger",
+                    "3/8\" French Fries, Fried",
+                    "Tater Tots",
+                    "Carolina Pulled Chicken Sandwich",
+                    "Fried Fish"
+                ],
+                "Cucina": [
+                    "Penne Pasta",
+                    "Vegan Meatballs",
+                    "Beyond Sweet Italian Sausage",
+                    "Sauteed Chicken Breast",
+                    "Steamed Broccoli",
+                    "Marinara Sauce",
+                    "Pesto Sauce",
+                    "Alfredo Sauce"
+                ],
+                "Delicious Without": [
+                    "Chili Lime Chicken",
+                    "Three Bean Chili",
+                    "Brown Rice",
+                    "Sauteed Kale",
+                    "Garden Salad",
+                    "Black Bean and Corn Salad",
+                    "Chickpea Salad",
+                    "Oat Milk Chia Seed Pudding",
+                    "Oat Milk Rice Pudding"
+                ],
+                "Fresh 52": [
+                    "Spring Mix",
+                    "Chopped Romaine Lettuce",
+                    "Baby Spinach",
+                    "Sliced Red Onion",
+                    "Sliced Cucumber",
+                    "Cherry Tomatoes",
+                    "Mandarin Orange Sections",
+                    "Croutons",
+                    "Fat Free Raspberry Dressing",
+                    "Fat Free Italian Dressing",
+                    "Buttermilk Ranch Dressing",
+                    "Caesar Dressing",
+                    "Balsamic Vinegar",
+                    "Extra Virgin Olive Oil"
+                ],
+                "Soup": [
+                    "Lemon Orzo Chicken Soup",
+                    "Crackers, Saltine, 2 CT, Zesta",
+                    "Crackers, Oyster, Zesta, Keebler, 0.5 oz"
+                ]
+            }
+        },
+        "Grace Dodge": {
+            "hours": "Closed for dinner",
+            "menu": {}
+        },
+        "Diana": {
+            "hours": "Closed for dinner",
+            "menu": {}
+        },
+        "Chef Don's": {
+            "hours": "Closed for dinner",
+            "menu": {}
+        }
+    }
+}
