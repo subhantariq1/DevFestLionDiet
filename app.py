@@ -16,8 +16,6 @@ def load_meal_data():
         return None
 
 meal_data = load_meal_data()
-# Load environment variables from .env
-load_dotenv()
 
 # Streamlit UI
 st.title("Columbia Dining Meal Recommender")
