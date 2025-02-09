@@ -74,4 +74,4 @@ fi
 # Call hash to forget past commands. Without forgetting
 # past commands the $PATH changes we made may not be respected
 hash -r 2> /dev/null
-export GROQ_API_KEY="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"
+# export GROQ_API_KEY="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"

@@ -5,6 +5,8 @@ import os
 from dotenv import load_dotenv
 from groq import Groq
 
+exec(open("webScraping.py").read())
+
 # Load meal data from JSON file
 @st.cache_data
 def load_meal_data():
@@ -46,8 +48,9 @@ else:
     user_exercise_level = "Extremely Active"
 
 # Retrieve API Key from environment variable
+load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-client = Groq(api_key=GROQ_API_KEY)
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # Function to call Groq's API
 def chat_with_groq(system_prompt, user_prompt):
@@ -80,11 +83,12 @@ def get_meal_recommendation(user_age, user_weight_kg, user_height_cm, user_exerc
     - Height: {user_height_cm} cm
     - Exercise Level: {user_exercise_level}
     - Goal: {user_goal}
-    - Meal Time: {meal_time}
+
 
     Use only the meals listed in this JSON file: {meal_data}.  
     Your response should be in this format:  
     Based on the Columbia dining plan, for {meal_time} I recommend [insert food] from [insert dininghall]
+    And explain why this meal is recommended in 1-2 sentences.
     """
 
     response = chat_with_groq(system_prompt, user_prompt)
