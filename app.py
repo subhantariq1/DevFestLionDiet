@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import requests
 import os
-import random
+from dotenv import load_dotenv
 from groq import Groq
 
 # Load meal data from JSON file
@@ -12,12 +12,12 @@ def load_meal_data():
         with open("liondine_meals.json", "r") as file:
             return json.load(file)
     except FileNotFoundError:
-        st.error("Error: The file 'liondine_meals.json' was not found in the repository.")
+        st.error("Error: The file 'liondine_meals.json' was not found.")
         return None
 
 meal_data = load_meal_data()
-
-print(meal_data)
+# Load environment variables from .env
+load_dotenv()
 
 # Streamlit UI
 st.title("Columbia Dining Meal Recommender")
@@ -48,80 +48,56 @@ else:
     user_exercise_level = "Extremely Active"
 
 # Retrieve API Key from environment variable
-GROQ_API_KEY = os.getenv("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")
-client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY"),
-)
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+client = Groq(api_key=GROQ_API_KEY)
 
 # Function to call Groq's API
 def chat_with_groq(system_prompt, user_prompt):
-
     messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ]
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt}
+    ]
 
     response = client.chat.completions.create(
         messages=messages,
-        model="llama-3.3-70b-versatile",
+        model="mixtral-8x7b-32768",
     )
 
-    # url = "https://api.groq.com/v1/chat/completions"
+    return response.choices[0].message.content if response else None
 
-    # headers = {
-    #     "Authorization": f"Bearer {GROQ_API_KEY}",
-    #     "Content-Type": "application/json"
-    # }
-
-    # data = {
-    #     "model": "llama3-8b-8192",
-    #     "messages": [
-    #         {"role": "system", "content": system_prompt},
-    #         {"role": "user", "content": user_prompt}
-    #     ],
-    #     "temperature": 0.7
-    # }
-
-    # response = requests.post(url, headers=headers, json=data)
-
-    # print(response)
-    if response:
-        return response.choices[0].message.content
-    else:
-        st.error(f"Groq API Error: {response.status_code}, {response.text}")
-        return None
-
-# Step 1: Determine Nutritional Needs
-def get_nutritional_needs(user_age, user_weight_kg, user_height_cm, user_exercise_level, user_goal):
-    system_prompt = (
-        "You are a nutrition assistant helping Columbia University students create a diet plan that aligns with their dining plan. "
-        "Your task is to determine the weekly nutrient and calorie requirements based on personal attributes and lifestyle factors. "
-        "Ensure that your calculations are dynamic and based on the user's goal (e.g., weight gain, weight loss, maintenance, athletic performance)."
-        "This json file {meal_data} has the meals of the day. Please just include that meal in the response (nothing else needed)."
-
-    )
+# Step 1: Determine Nutritional Needs & Recommend a Meal
+def get_meal_recommendation(user_age, user_weight_kg, user_height_cm, user_exercise_level, user_goal, meal_time):
+    system_prompt = f"""
+    You are a Columbia University dining assistant. 
+    Your task is to recommend a meal based on the user's preferences and available Columbia Dining meals.
+    Only return the meal recommendation. No additional text, calculations, or explanations.
+    """
 
     user_prompt = f"""
-    My user needs a personalized diet plan based on their Columbia dining plan. To begin, determine their weekly nutrient and calorie needs.
-    Consider the following user details:
+    My user needs a meal recommendation from Columbia Dining. 
+    Consider their details:
 
     - Age: {user_age}
     - Weight: {user_weight_kg} kg
     - Height: {user_height_cm} cm
     - Exercise Level: {user_exercise_level}
     - Goal: {user_goal}
+    - Meal Time: {meal_time}
 
-    Use the Mifflin-St Jeor Equation for BMR, adjust for TDEE, and modify calorie intake based on goal. 
+    Use only the meals listed in this JSON file: {meal_data}.  
+    Your response should be in this format:  
+    Based on the Columbia dining plan, for {meal_time} I recommend [insert food] from [insert dininghall]
     """
 
     response = chat_with_groq(system_prompt, user_prompt)
-    # return json.loads(response) if response else None
     return response
 
 # Streamlit Button for Meal Recommendation
 if st.button("Get Meal Recommendation"):
-    st.write("Calculating your nutritional needs...")
-    nutritional_needs = get_nutritional_needs(user_age, user_weight_kg, user_height_cm, user_exercise_level, user_goal)
+    st.write("Fetching your meal recommendation...")
+    meal_recommendation = get_meal_recommendation(user_age, user_weight_kg, user_height_cm, user_exercise_level, user_goal, meal_time)
 
-    st.markdown(f"{nutritional_needs}")
-    
+    if meal_recommendation:
+        st.markdown(meal_recommendation)
+    else:
+        st.error("Failed to retrieve a meal recommendation. Please try again.")
