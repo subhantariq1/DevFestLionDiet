@@ -53,6 +53,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # Function to call Groq's API
+# Note: Change to Gemini API
 def chat_with_groq(system_prompt, user_prompt):
     messages = [
         {"role": "system", "content": system_prompt},
