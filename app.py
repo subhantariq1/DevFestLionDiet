@@ -1,3 +1,11 @@
+# Note: there are many notes in this file which I need to implement
+
+# General Note: Create another funcitonality of the app where the user can get one meal recommendations (instead of a weekly plan) 
+# For this function, I need to make sure that the application recommends a meal by reading the website in real time to see the current open locations and menus
+# Obviously, I need to change the current meal recommender to a weekly plan that only includes the meals that are available every day
+# General Note: Add Barnard Dining Halls
+# General Note: Consider adding a feature like voice chat: where you converse with the AI (It asks you the input questions, receives answers, processes them and suggest a plan/meal
+
 import streamlit as st
 import json
 import requests
