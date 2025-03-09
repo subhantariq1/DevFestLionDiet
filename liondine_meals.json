@@ -1,48 +1,30 @@
 {
     "breakfast": {
+        "Robert F. Smith Dining Hall": {
+            "hours": "8:00 AM to 11:00 AM",
+            "menu": {
+                "Continental Breakfast": [
+                    "Pastries",
+                    "Cereals",
+                    "Fruits"
+                ]
+            }
+        },
+
         "Ferris": {
-            "hours": "10:00 AM to 2:00 PM",
+            "hours": "7:30 AM to 11:00 AM",
             "menu": {
-                "Main Line": [
-                    "Apple Pancakes",
+                "Breakfast Station": [
+                    "French Toast",
                     "Scrambled Eggs",
-                    "Roasted Potatoes",
-                    "Bacon",
+                    "Hash Brown Patties",
+                    "Ham",
                     "Turkey Sausage",
-                    "Biscuits and Sausage Gravy"
-                ],
-                "Vegan Station": [
-                    "Vegan Sausage",
-                    "Just Egg",
-                    "Roasted Vegetables"
+                    "Biscuits with Sausage Gravy"
                 ]
             }
         },
-        "JJ's": {
-            "hours": "12:00 AM to 10:00 AM",
-            "menu": {
-                "Action Station": [
-                    "Bacon Egg and Cheese on a English Muffin",
-                    "strawberry cheesecake stuffed French toast",
-                    "Vegan banana Pancakes"
-                ],
-                "Main Line": [
-                    "Philly Cheese Steak Burger",
-                    "KC BBQ Pulled Pork Sliders",
-                    "Hot Honey Crispy Chicken Sandwich",
-                    "Vegetable Spring Rolls",
-                    "Funnel Cake Fries"
-                ],
-                "Grill": [
-                    "Buffalo Chicken Quesadilla"
-                ],
-                "Fry Station": [
-                    "Chicken Wings",
-                    "Mini Corn Dogs",
-                    "Waffle Fries"
-                ]
-            }
-        },
+
         "Faculty House": {
             "hours": "Closed for breakfast",
             "menu": {}
@@ -93,9 +75,44 @@
                     "Scrambled Egg",
                     "Roasted Potato Wedge",
                     "Roasted Maple Carrots"
+                ],
+                "Grill Station": [
+                    "Scrambled Eggs",
+                    "Bacon",
+                    "Hash Browns",
+                    "Omelette"
+                ]
+
+            }
+        },
+        "JJ's Place": {
+            "hours": "12:00 PM to 10:00 AM (next day)",
+             "menu": {
+                "Grill Station": [
+                "Fried Eggs",
+                "Scrambled Eggs",
+                "Omelette"
+                ],
+                "Burgers": [
+                "Beef Hamburger",
+                "Beef Cheeseburger",
+                "Chicken Burger"
+                ],
+                "Fried Foods": [
+                "French Fries",
+                "Mozzarella Sticks"
+                ],
+                "Salad Bar": [
+                "Romaine Lettuce",
+                "Cherry Tomatoes",
+                "Cucumbers",
+                "Shredded Carrots",
+                "Bell Peppers",
+                "Red Onions"
                 ]
             }
         },
+
         "Hewitt": {
             "hours": "10:30 AM to 3:00 PM",
             "menu": {
@@ -194,34 +211,50 @@
         }
     },
     "lunch": {
-        "Ferris": {
-            "hours": "10:00 AM to 2:00 PM",
+        "Robert F. Smith Dining Hall": {
+            "hours": "11:00 AM to 2:00 PM",
             "menu": {
-                "Action Station": [
-                    "Waffle Bar: Waffles, M&Ms, Oreos, chocolate chips, maple syrup, powdered sugar, whipped cream, marshmallows, chocolate syrup"
+                "Lunch": [
+                    "Assorted Sandwich",
+                    "Soup of the Day",
+                    "Garden Salad"
+                ],
+    
+                "Snacks & Grab-and-Go Items": [
+                    "Chips",
+                    "Granola Bar",
+                    "Fruit Cup"
+    
+                ],
+    
+                "Coffee Bar": [
+                    "Coffee",
+                    "Espresso",
+                    "Latte"
+    
                 ]
             }
         },
-        "JJ's": {
-            "hours": "12:00 PM to midnight",
+
+        "Ferris Booth Commons": {
+            "hours": "11:00 AM to 5:00 PM",
             "menu": {
-                "Main Line": [
-                    "Philly Cheese Steak Burger",
-                    "KC BBQ Pulled Pork Sliders",
-                    "Hot Honey Crispy Chicken Sandwich",
-                    "Vegetable Spring Rolls",
-                    "Funnel Cake Fries"
+                "Pasta and Pizza Stations": [
+                    "Custom Pasta Dish",
+                    "Pizza Slice"
                 ],
-                "Grill": [
-                    "Buffalo Chicken Quesadilla"
-                ],
-                "Fry Station": [
-                    "Chicken Wings",
-                    "Mini Corn Dogs",
-                    "Waffle Fries"
+    
+                "Salad Bar": [
+                    "Romaine Lettuce",
+                    "Cherry Tomatoes",
+                    "Cucumbers",
+                    "Shredded Carrots",
+                    "Bell Peppers",
+                    "Red Onions"
                 ]
             }
         },
+
         "Faculty House": {
             "hours": "Closed for lunch",
             "menu": {}
@@ -235,9 +268,18 @@
             "menu": {}
         },
         "Fac Shack": {
-            "hours": "Closed for lunch",
-            "menu": {}
+            "hours": "11:30 AM to 5:30 PM (Mon-Thu)",
+            "menu": {
+                "Daily Meal Package": [
+                    "Chicken Meal",
+                    "Rice",
+                    "Mixed Vegetables",
+                    "Apple",
+                    "Banana"
+                ]
+            }
         },
+
         "John Jay": {
             "hours": "11:00 AM to 2:30 PM",
             "menu": {
@@ -266,6 +308,14 @@
                     "French Toast Bar",
                     "Vegan Burger",
                     "Grilled Cheese Bar"
+                ],
+                "Salad Bar": [
+                    "Romaine Lettuce",
+                    "Cherry Tomatoes",
+                    "Cucumbers",
+                    "Shredded Carrots",
+                    "Bell Peppers",
+                    "Red Onions"
                 ]
             }
         },
@@ -345,9 +395,19 @@
             }
         },
         "Grace Dodge": {
-            "hours": "Closed for lunch",
-            "menu": {}
+            "hours": "11:00 AM to 7:00 PM (Mon-Thu)",
+            "menu": {
+                "Salad Station": [
+                    "Mixed Greens",
+                    "Tomatoes",
+                    "Cucumbers",
+                    "Carrots",
+                    "Croutons",
+                    "Quinoa"
+                ]
+            }
         },
+
         "Diana": {
             "hours": "12:00 PM to 8:00 PM",
             "menu": {}
@@ -358,50 +418,26 @@
         }
     },
     "dinner": {
-        "Ferris": {
-            "hours": "5:00 PM to 8:00 PM",
+        "Ferris Booth Commons": {
+            "hours": "5:00 PM to close",
             "menu": {
-                "Main Line": [
-                    "BBQ Roasted Chicken",
-                    "Jalapeno Mac and Cheese",
-                    "Cous Cous Pilaf",
-                    "Street Corn",
-                    "Corn Bread"
+                "Pasta and Pizza Stations": [
+                    "Custom Pasta Dish",
+                    "Pizza Slice"
                 ],
-                "Vegan Station": [
-                    "BBQ Vegan Chicken",
-                    "Sweet Potatoes",
-                    "Street Corn"
-                ],
-                "Action Station": [
-                    "Loaded Nacho Bar: Tortilla chips, beef chili, vegan chorizo chili, sour cream, salsa, jalapenos, guac, black beans, vegan cheese sauce, cheese sauce"
-                ],
-                "Pasta Station": [
-                    "Wing Bar"
+    
+                "Salad Bar": [
+                    "Romaine Lettuce",
+                    "Cherry Tomatoes",
+                    "Cucumbers",
+                    "Shredded Carrots",
+                    "Bell Peppers",
+                    "Red Onions"
                 ]
             }
         },
-        "JJ's": {
-            "hours": "12:00 PM to midnight",
-            "menu": {
-                "Main Line": [
-                    "Philly Cheese Steak Burger",
-                    "KC BBQ Pulled Pork Sliders",
-                    "Hot Honey Crispy Chicken Sandwich",
-                    "Vegetable Spring Rolls",
-                    "Funnel Cake Fries",
-                    "Potato and cheese Pierogies"
-                ],
-                "Grill": [
-                    "Buffalo Chicken Quesadilla"
-                ],
-                "Fry Station": [
-                    "Chicken Wings",
-                    "Mini Corn Dogs",
-                    "Waffle Fries"
-                ]
-            }
-        },
+
+
         "Faculty House": {
             "hours": "Closed for dinner",
             "menu": {}
@@ -468,7 +504,16 @@
                     "French Toast Bar",
                     "Vegan Burger",
                     "Grilled Cheese Bar"
+                ],
+                "Salad Bar": [
+                    "Romaine Lettuce",
+                    "Cherry Tomatoes",
+                    "Cucumbers",
+                    "Shredded Carrots",
+                    "Bell Peppers",
+                    "Red Onions"
                 ]
+    
             }
         },
         "Hewitt": {
