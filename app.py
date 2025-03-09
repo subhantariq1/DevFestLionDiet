@@ -1,10 +1,21 @@
 # Note: there are many notes in this file which I need to implement
 
-# General Note: Create another funcitonality of the app where the user can get one meal recommendations (instead of a weekly plan) 
-# For this function, I need to make sure that the application recommends a meal by reading the website in real time to see the current open locations and menus
-# Obviously, I need to change the current meal recommender to a weekly plan that only includes the meals that are available every day
-# General Note: Add Barnard Dining Halls
-# General Note: Consider adding a feature like voice chat: where you converse with the AI (It asks you the input questions, receives answers, processes them and suggest a plan/meal
+# I need to change the current meal recommender to a weekly plan that only includes the meals that are available every day
+    # Add everyday menus to json file. 
+    # Delete Daily Data in Json file. 
+    # Add Barnard Dining Halls
+    # Prompt Engineering to overcome issue of too much data for API
+
+# Create another funcitonality of the app where the user can get one meal recommendations (instead of a weekly plan) 
+    # For this function, I need to make sure that the application recommends a meal by reading the website in real time to see the current open locations and menus
+    # Somehow link the api to the real time online data of the menus 
+    #Somehow make sure that it can also look at the json file to see what general everyday meals are available, to see whethter there are suggestion from there that it can give
+
+# Change Groq api to gemini 
+
+# Consider adding a feature like voice chat: where you converse with the AI (It asks you the input questions, receives answers, processes them and suggest a plan/meal
+
+# Consider making it able to diversify meals (eg from JohnJay 200g salad, 300g noodles with tomato sauce, and a banana)
 
 import streamlit as st
 import json
