@@ -48,6 +48,7 @@ else:
     user_exercise_level = "Extremely Active"
 
 # Retrieve API Key from environment variable
+# Note: Look at this api implementation and compare it to BankAccount.py usage
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
