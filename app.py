@@ -1,3 +1,22 @@
+# Note: there are many notes in this file which I need to implement
+
+# I need to change the current meal recommender to a weekly plan that only includes the meals that are available every day
+    # Add everyday menus to json file. 
+    # Delete Daily Data in Json file. 
+    # Add Barnard Dining Halls
+    # Prompt Engineering to overcome issue of too much data for API
+
+# Create another funcitonality of the app where the user can get one meal recommendations (instead of a weekly plan) 
+    # For this function, I need to make sure that the application recommends a meal by reading the website in real time to see the current open locations and menus
+    # Somehow link the api to the real time online data of the menus 
+    #Somehow make sure that it can also look at the json file to see what general everyday meals are available, to see whethter there are suggestion from there that it can give
+
+# Change Groq api to gemini 
+
+# Consider adding a feature like voice chat: where you converse with the AI (It asks you the input questions, receives answers, processes them and suggest a plan/meal
+
+# Consider making it able to diversify meals (eg from JohnJay 200g salad, 300g noodles with tomato sauce, and a banana)
+
 import streamlit as st
 import json
 import requests
@@ -48,11 +67,13 @@ else:
     user_exercise_level = "Extremely Active"
 
 # Retrieve API Key from environment variable
+# Note: Look at this api implementation and compare it to BankAccount.py usage
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # Function to call Groq's API
+# Note: Change to Gemini API
 def chat_with_groq(system_prompt, user_prompt):
     messages = [
         {"role": "system", "content": system_prompt},
