@@ -17,6 +17,10 @@
 
 # Consider making it able to diversify meals (eg from JohnJay 200g salad, 300g noodles with tomato sauce, and a banana)
 
+# Add more options for user input: They should be able to select their dining plan and the api should usggest something based on this restriction.
+
+# Think about this problem: I am creating a weekly plan, but many meals are only published on the day, so the weekly plan will only include standardized meals - perhaps calculate the likelihood of a certain meal being at a certain location (e.g chicken at JohnJay)
+
 import streamlit as st
 import json
 import requests
