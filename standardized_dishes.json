@@ -1,0 +1,157 @@
+{
+    "Robert F. Smith Dining Hall": {
+        "breakfast": {
+            "Continental Breakfast": [
+                "Pastries",
+                "Cereals",
+                "Fruits"
+            ]
+        },
+        "lunch": {
+            "Lunch": [
+                "Assorted Sandwich",
+                "Soup of the Day",
+                "Garden Salad"
+            ],
+            "Snacks & Grab-and-Go Items": [
+                "Chips",
+                "Granola Bar",
+                "Fruit Cup"
+            ],
+            "Coffee Bar": [
+                "Coffee",
+                "Espresso",
+                "Latte"
+            ]
+        }
+    },
+    "Ferris": {
+        "breakfast": {
+            "Breakfast Station": [
+                "French Toast",
+                "Scrambled Eggs",
+                "Hash Brown Patties",
+                "Ham",
+                "Turkey Sausage",
+                "Biscuits with Sausage Gravy"
+            ]
+        }
+    },
+    "John Jay": {
+        "breakfast": {
+            "Grill Station": [
+                "Scrambled Eggs",
+                "Bacon",
+                "Hash Browns",
+                "Omelette"
+            ]
+        },
+        "lunch": {
+            "Pasta Station": [
+                "Marinara Sauce",
+                "Alfredo Sauce",
+                "Garlic Oil",
+                "Ziti",
+                "Whole Wheat Pasta",
+                "Sunday Sauce"
+            ],
+            "Salad Bar": [
+                "Romaine Lettuce",
+                "Cherry Tomatoes",
+                "Cucumbers",
+                "Shredded Carrots",
+                "Bell Peppers",
+                "Red Onions"
+            ]
+        },
+        "dinner": {
+            "Salad Bar": [
+                "Romaine Lettuce",
+                "Cherry Tomatoes",
+                "Cucumbers",
+                "Shredded Carrots",
+                "Bell Peppers",
+                "Red Onions"
+            ]
+        }
+    },
+    "JJ's Place": {
+        "breakfast": {
+            "Grill Station": [
+                "Fried Eggs",
+                "Scrambled Eggs",
+                "Omelette"
+            ],
+            "Burgers": [
+                "Beef Hamburger",
+                "Beef Cheeseburger",
+                "Chicken Burger"
+            ],
+            "Fried Foods": [
+                "French Fries",
+                "Mozzarella Sticks"
+            ],
+            "Salad Bar": [
+                "Romaine Lettuce",
+                "Cherry Tomatoes",
+                "Cucumbers",
+                "Shredded Carrots",
+                "Bell Peppers",
+                "Red Onions"
+            ]
+        }
+    },
+    "Ferris Booth Commons": {
+        "lunch": {
+            "Pasta and Pizza Stations": [
+                "Custom Pasta Dish",
+                "Pizza Slice"
+            ],
+            "Salad Bar": [
+                "Romaine Lettuce",
+                "Cherry Tomatoes",
+                "Cucumbers",
+                "Shredded Carrots",
+                "Bell Peppers",
+                "Red Onions"
+            ]
+        },
+        "dinner": {
+            "Pasta and Pizza Stations": [
+                "Custom Pasta Dish",
+                "Pizza Slice"
+            ],
+            "Salad Bar": [
+                "Romaine Lettuce",
+                "Cherry Tomatoes",
+                "Cucumbers",
+                "Shredded Carrots",
+                "Bell Peppers",
+                "Red Onions"
+            ]
+        }
+    },
+    "Fac Shack": {
+        "lunch": {
+            "Daily Meal Package": [
+                "Chicken Meal",
+                "Rice",
+                "Mixed Vegetables",
+                "Apple",
+                "Banana"
+            ]
+        }
+    },
+    "Grace Dodge": {
+        "lunch": {
+            "Salad Station": [
+                "Mixed Greens",
+                "Tomatoes",
+                "Cucumbers",
+                "Carrots",
+                "Croutons",
+                "Quinoa"
+            ]
+        }
+    }
+}
