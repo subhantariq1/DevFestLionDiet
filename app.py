@@ -1,8 +1,8 @@
 # Note: there are many notes in this file which I need to implement
 
 # I need to change the current meal recommender to a weekly plan that only includes the meals that are available every day
-    # Completed: Add everyday menus to json file. 
-    # Delete Daily Data in Json file. 
+    # Completed: Add new file with standardized meals
+    # write pythin code for merging new file with scraped data file 
     # Add Barnard Dining Halls
     # Prompt Engineering to overcome issue of too much data for API
 
