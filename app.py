@@ -2,7 +2,8 @@
 
 # I need to change the current meal recommender to a weekly plan that only includes the meals that are available every day
     # Completed: Add new file with standardized meals
-    # write python code for merging new file with scraped data file 
+    # Completed: write python code for merging new file with scraped data file 
+    # Run/Test application so far
     # Add Barnard Dining Halls for standardized data
     # Prompt Engineering to overcome issue of too much data for API
 
