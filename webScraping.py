@@ -3,6 +3,17 @@ from bs4 import BeautifulSoup
 import json
 
 
+# Read standardized_dishes.json file and convert the data into a dictionary stored in the variable standardized_data
+import os
+# Load standardized dishes from JSON if available
+standardized_file = "standardized_dishes.json"
+if os.path.exists(standardized_file):
+    with open(standardized_file, "r", encoding="utf-8") as std_file:
+        standardized_data = json.load(std_file)
+else:
+    standardized_data = {}
+
+
 # Base URL for Lion Dine meals
 meal_types = ["breakfast", "lunch", "dinner"]
 base_url = "https://liondine.com/"
@@ -61,6 +72,22 @@ for meal in meal_types:
 
     else:
         print(f"Failed to fetch {meal} page. Status code: {response.status_code}")
+
+# Merge Standardized Data
+for meal_type, halls in liondine_data.items():
+    for hall_name, hall_info in halls.items():
+        # Check if this dining hall exists in the standardized data
+        if hall_name in standardized_data:
+            # Check if the standardized data has an entry for the current meal type
+            if meal_type in standardized_data[hall_name]:
+                # Loop over each standardized category
+                for category, items in standardized_data[hall_name][meal_type].items():
+                    # If the category already exists in the scraped menu, extend the list.
+                    if category in hall_info["menu"]:
+                        hall_info["menu"][category].extend(items)
+                    else:
+                        # Otherwise, add the new category.
+                        hall_info["menu"][category] = items
 
 # Save everything into a JSON file
 with open("liondine_meals.json", "w", encoding="utf-8") as json_file:
