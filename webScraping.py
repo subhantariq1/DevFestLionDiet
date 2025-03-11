@@ -3,6 +3,17 @@ from bs4 import BeautifulSoup
 import json
 
 
+# Read standardized_dishes.json file and convert the data into a dictionary stored in the variable standardized_data
+import os
+# Load standardized dishes from JSON if available
+standardized_file = "standardized_dishes.json"
+if os.path.exists(standardized_file):
+    with open(standardized_file, "r", encoding="utf-8") as std_file:
+        standardized_data = json.load(std_file)
+else:
+    standardized_data = {}
+
+
 # Base URL for Lion Dine meals
 meal_types = ["breakfast", "lunch", "dinner"]
 base_url = "https://liondine.com/"
