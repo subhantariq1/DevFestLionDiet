@@ -14,6 +14,8 @@
     # Somehow link the api to the real time online data of the menus 
     #Somehow make sure that it can also look at the json file to see what general everyday meals are available, to see whethter there are suggestion from there that it can give
 
+# Change it to scrape from columbia dining rather than liondiet. They are competitors!!
+
 # Change Groq api to gemini 
 
 # Consider adding a feature like voice chat: where you converse with the AI (It asks you the input questions, receives answers, processes them and suggest a plan/meal
