@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/subhantariq/Desktop/DevFest Hackathon/.venv/bin/python" "$0" "$@"
-' '''
+#!/Users/kaanerdem/Desktop/College/Programming_Projects/DevFestLionDiet/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

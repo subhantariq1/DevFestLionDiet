@@ -1,19 +1,21 @@
 {
     "breakfast": {
-        "Robert F. Smith Dining Hall": {
-            "hours": "8:00 AM to 11:00 AM",
-            "menu": {
-                "Continental Breakfast": [
-                    "Pastries",
-                    "Cereals",
-                    "Fruits"
-                ]
-            }
-        },
-
         "Ferris": {
             "hours": "7:30 AM to 11:00 AM",
             "menu": {
+                "Main Line": [
+                    "Apple Pancakes",
+                    "Scrambled Eggs",
+                    "Red Skin Potatoes",
+                    "Turkey Sausage Patties",
+                    "Sliced Ham",
+                    "Biscuits and Sausage Gravy"
+                ],
+                "Vegan Station": [
+                    "Ratatouille",
+                    "Tofu with Spinach",
+                    "Beyond Sausage"
+                ],
                 "Breakfast Station": [
                     "French Toast",
                     "Scrambled Eggs",
@@ -24,12 +26,21 @@
                 ]
             }
         },
-
+        "JJ's": {
+            "hours": "12:00 AM to 10:00 AM",
+            "menu": {
+                "Main Line": [
+                    "Steak and Egg Breakfast Sandwich",
+                    "Chicken and Biscuit Sandwich",
+                    "Vegan Breakfast Sandwich"
+                ]
+            }
+        },
         "Faculty House": {
             "hours": "Closed for breakfast",
             "menu": {}
         },
-        "Chef Mike's": {
+        "Grace Dodge": {
             "hours": "Closed for breakfast",
             "menu": {}
         },
@@ -46,35 +57,29 @@
             "menu": {
                 "Soup Station": [
                     "Oatmeal",
-                    "Caramel Oatmeal",
+                    "Pineapple & Cherry",
                     "Farina"
                 ],
                 "Main Line": [
-                    "Chicken and Gravy",
-                    "Roasted Maple Carrots",
-                    "Southern Style Biscuits",
-                    "Scrambled Eggs"
+                    "Scrambled Eggs",
+                    "Egg White Scramble",
+                    "Pancakes",
+                    "Sliced Marinated Tomatoes",
+                    "Tri Patty",
+                    "Corned Beef Hash"
                 ],
                 "Vegan Station": [
-                    "Tofu Scramble",
-                    "Vegan Breakfast Sausage",
-                    "Roasted Maple Carrots"
+                    "Just Egg Patty",
+                    "Sliced Marinated Tomatoes",
+                    "Vegan Sausage",
+                    "Vegan Muffins"
                 ],
                 "Nook": [
-                    "Cinnamon Roll",
-                    "French Toast Sticks"
+                    "French Toast Sticks",
+                    "Biscuits"
                 ],
-                "Halal Station": [
-                    "Chicken and Gravy",
-                    "Scrambled Eggs",
-                    "Southern Style Biscuit",
-                    "Roasted Maple Carrot"
-                ],
-                "Gluten Free Station": [
-                    "Chicken and Gravy",
-                    "Scrambled Egg",
-                    "Roasted Potato Wedge",
-                    "Roasted Maple Carrots"
+                "Chef Mike's Kitchen": [
+                    "Smoothie Bar"
                 ],
                 "Grill Station": [
                     "Scrambled Eggs",
@@ -82,55 +87,78 @@
                     "Hash Browns",
                     "Omelette"
                 ]
-
             }
         },
-        "JJ's Place": {
-            "hours": "12:00 PM to 10:00 AM (next day)",
-             "menu": {
-                "Grill Station": [
-                "Fried Eggs",
-                "Scrambled Eggs",
-                "Omelette"
-                ],
-                "Burgers": [
-                "Beef Hamburger",
-                "Beef Cheeseburger",
-                "Chicken Burger"
-                ],
-                "Fried Foods": [
-                "French Fries",
-                "Mozzarella Sticks"
-                ],
-                "Salad Bar": [
-                "Romaine Lettuce",
-                "Cherry Tomatoes",
-                "Cucumbers",
-                "Shredded Carrots",
-                "Bell Peppers",
-                "Red Onions"
-                ]
-            }
-        },
-
         "Hewitt": {
-            "hours": "10:30 AM to 3:00 PM",
+            "hours": "7:30 AM to 10:00 AM",
             "menu": {
-                "Delicious Without": [
-                    "Southwestern Breakfast Bowl",
-                    "Oatmeal",
-                    "Potato Wedges",
+                "500 Degrees": [
+                    "Margarita Flatbread",
+                    "Cheese Flatbread",
+                    "Scrambled Eggs",
                     "Chicken Sausage Patty",
-                    "Pineapple",
+                    "Breakfast Pizza"
+                ],
+                "Homestyle": [
+                    "Turkey Bacon",
+                    "Belgian Waffles",
+                    "Buttermilk Pancakes",
+                    "Diced Potato, Pepper, and Onion Hash",
+                    "Cinnamon Rolls",
+                    "French Toast"
+                ],
+                "Flame": [
+                    "Scrambled Eggs",
+                    "Free Range Eggs",
+                    "Egg White Omelet",
+                    "Chopped Onion",
+                    "Diced Red Bell Peppers",
+                    "Roasted Mushroom",
+                    "Sauteed Spinach",
+                    "Chopped Tomatoes",
+                    "Cheddar Cheese",
+                    "Shredded Mozzarella Cheese"
+                ],
+                "Cucina": [
+                    "Scrambled Eggs",
+                    "Scrambled Eggs with Cheese",
+                    "Tofu Scramble",
+                    "Shredded Steamed potatoes",
+                    "Beef Breakfast Sausage",
+                    "Meatless Vegetarian Sausage Patty"
+                ],
+                "Delicious Without": [
+                    "Oatmeal",
+                    "Rosemary Roasted Potato",
+                    "Steamed Broccoli",
+                    "Beef Breakfast Sausage",
                     "Garden Salad",
-                    "Fresh Fruit Salad"
+                    "Fresh Fruit Salad",
+                    "Cubed Pineapple"
+                ],
+                "Fruit & Yogurt": [
+                    "Classic Oatmeal",
+                    "Grits",
+                    "Strawberry Yogurt Dip",
+                    "Low Fat Vanilla Yogurt",
+                    "Cottage Cheese",
+                    "Cantaloupe",
+                    "Fresh Honeydew",
+                    "Cubed Pineapple",
+                    "Cubed Watermelon"
                 ],
                 "The Sweet Shoppe": [
                     "Double Chocolate Chip Muffin",
                     "Blueberry Muffin",
                     "Cranberry Muffin",
                     "Corn Muffin",
-                    "Croissant"
+                    "Croissant",
+                    "Chocolate Croissant",
+                    "Apple Cider Donut",
+                    "Raspberry Danish",
+                    "Apricot Danish",
+                    "Apple Danish",
+                    "Butter Cookie Sandwich"
                 ],
                 "Fuel": [
                     "Low Fat Strawberry Yogurt",
@@ -139,39 +167,8 @@
                     "4% Full Fat Cottage Cheese",
                     "Cubed Honeydew",
                     "Cubed Cantaloupe",
-                    "Cubed Pineapple"
-                ],
-                "500 Degrees": [
-                    "Chicken Caesar Pizza",
-                    "Mushroom Pizza",
-                    "Cheeseburger Pizza"
-                ],
-                "Homestyle": [
-                    "French Toast",
-                    "Buttermilk Pancakes",
-                    "Belgian Waffles",
-                    "Tofu Scramble",
-                    "Veggie Sausage Patty"
-                ],
-                "Cucina": [
-                    "Scrambled Eggs",
-                    "Chicken Sausage Patty",
-                    "Tater Tots",
-                    "Texas BBQ Brisket",
-                    "Steamed Rice",
-                    "Roasted Vegetable Mix"
-                ],
-                "Flame": [
-                    "Scrambled Eggs",
-                    "Free Range Eggs",
-                    "Egg White Omelet",
-                    "Chopped Onion",
-                    "Diced Red Bell Peppers",
-                    "Roasted Mushroom",
-                    "Sauteed Spinach",
-                    "Chopped Tomatoes",
-                    "Cheddar Cheese",
-                    "Shredded Mozzarella Cheese"
+                    "Cubed Pineapple",
+                    "Cubed Watermelon"
                 ],
                 "Fresh 52": [
                     "Spring Mix",
@@ -187,216 +184,140 @@
                     "Buttermilk Ranch Dressing",
                     "Caesar Dressing",
                     "Balsamic Vinegar",
-                    "Extra Virgin Olive Oil"
+                    "Extra Virgin Olive Oil",
+                    "Tortilla Chips",
+                    "Blueberries",
+                    "Blackberries",
+                    "Strawberries"
+                ],
+                "Desserts": [
+                    "Peppermint Ganache Brownie",
+                    "Red Velvet Cake",
+                    "Chocolate Brownie",
+                    "Blondie"
                 ],
                 "Soup": [
-                    "Vegetarian Vegetable Soup",
-                    "Beef Chili",
+                    "Broccoli Cheddar Soup",
+                    "Pacific Trader Shrimp Soup",
                     "Crackers, Saltine, 2 CT, Zesta",
                     "Crackers, Oyster, Zesta, Keebler, 0.5 oz"
                 ]
             }
         },
-        "Grace Dodge": {
+        "Chef Mike's": {
             "hours": "Closed for breakfast",
             "menu": {}
         },
         "Diana": {
-            "hours": "Closed for breakfast",
-            "menu": {}
+            "hours": "9:00 AM to 3:00 PM",
+            "menu": {
+                "Breakfast Grill": [
+                    "Brioche Bun",
+                    "cage-free fried egg",
+                    "Bacon",
+                    "Turkey Bacon",
+                    "Sausage Patty",
+                    "American Cheese Slice",
+                    "Fried Hash Brown Patty"
+                ],
+                "Oatmeal Bar": [
+                    "Hard Boiled Egg",
+                    "Steel Cut Oatmeal",
+                    "Raisins",
+                    "Ground Cinnamon",
+                    "Light Brown Sugar"
+                ],
+                "Fresh Juiced": [
+                    "Ruby Red Surge",
+                    "Antioxidant Power",
+                    "Green Detox",
+                    "C Clearly Carrot Orange",
+                    "B Cleansed"
+                ],
+                "Smoothie Lab": [
+                    "Very Green Smoothie",
+                    "Strawberry Banana Smoothie",
+                    "Carrot and Apple Smoothie",
+                    "Berry Blast Smoothie",
+                    "Green Monster"
+                ]
+            }
         },
         "Chef Don's": {
-            "hours": "Closed for breakfast",
-            "menu": {}
+            "hours": "8:00 AM to 11:00 AM",
+            "menu": {
+                "Sandwiches": [
+                    "Bacon egg and cheese bagel",
+                    "Ham egg and cheese bagel",
+                    "Vegan breakfast bagel"
+                ],
+                "Sides": [
+                    "Cup of oatmeal",
+                    "Piece of fruit",
+                    "Danish pastry",
+                    "Small coffee or tea"
+                ]
+            }
         }
     },
     "lunch": {
-        "Robert F. Smith Dining Hall": {
-            "hours": "11:00 AM to 2:00 PM",
-            "menu": {
-                "Lunch": [
-                    "Assorted Sandwich",
-                    "Soup of the Day",
-                    "Garden Salad"
-                ],
-    
-                "Snacks & Grab-and-Go Items": [
-                    "Chips",
-                    "Granola Bar",
-                    "Fruit Cup"
-    
-                ],
-    
-                "Coffee Bar": [
-                    "Coffee",
-                    "Espresso",
-                    "Latte"
-    
-                ]
-            }
-        },
-
-        "Ferris Booth Commons": {
+        "Ferris": {
             "hours": "11:00 AM to 5:00 PM",
             "menu": {
-                "Pasta and Pizza Stations": [
-                    "Custom Pasta Dish",
-                    "Pizza Slice"
-                ],
-    
-                "Salad Bar": [
-                    "Romaine Lettuce",
-                    "Cherry Tomatoes",
-                    "Cucumbers",
-                    "Shredded Carrots",
-                    "Bell Peppers",
-                    "Red Onions"
-                ]
-            }
-        },
-
-        "Faculty House": {
-            "hours": "Closed for lunch",
-            "menu": {}
-        },
-        "Chef Mike's": {
-            "hours": "Closed for lunch",
-            "menu": {}
-        },
-        "Johnny's": {
-            "hours": "Closed for lunch",
-            "menu": {}
-        },
-        "Fac Shack": {
-            "hours": "11:30 AM to 5:30 PM (Mon-Thu)",
-            "menu": {
-                "Daily Meal Package": [
-                    "Chicken Meal",
-                    "Rice",
-                    "Mixed Vegetables",
-                    "Apple",
-                    "Banana"
-                ]
-            }
-        },
-
-        "John Jay": {
-            "hours": "11:00 AM to 2:30 PM",
-            "menu": {
-                "Pasta Station": [
-                    "Marinara Sauce",
-                    "Alfredo Sauce",
-                    "Garlic Oil",
-                    "Ziti",
-                    "Whole Wheat Pasta",
-                    "Sunday Sauce"
-                ],
-                "Soup Station": [
-                    "Pasta E Fagioli",
-                    "Roasted Cauliflower"
-                ],
-                "Fusion Station": [
-                    "Korean BBQ Beef",
-                    "Korean BBQ Seitan",
-                    "Kimchi Fried Rice",
-                    "Garlic Green Beans"
-                ],
                 "Action Station": [
-                    "Mongolian Beef Burrito"
+                    "BLT: Bacon, lettuce, tomato, bread, mayo, lays chips"
+                ],
+                "Vegan Station": [
+                    "Tofu Cauliflower Korma",
+                    "Mashed Potatoes",
+                    "Steamed Green Beans"
+                ]
+            }
+        },
+        "JJ's": {
+            "hours": "12:00 PM to midnight",
+            "menu": {
+                "Main Line": [
+                    "JJ's Fish and Chips",
+                    "JJ's Garbage Plate",
+                    "Chicken Bacon Ranch Sandwich",
+                    "Spinach Artichoke Dip",
+                    "Root Vegetable Wrap"
+                ],
+                "Fry Station": [
+                    "Chicken Wings",
+                    "Sweet Potato Fries",
+                    "Crinkle Cut Fries"
                 ],
                 "Grill": [
-                    "French Toast Bar",
-                    "Vegan Burger",
-                    "Grilled Cheese Bar"
-                ],
-                "Salad Bar": [
-                    "Romaine Lettuce",
-                    "Cherry Tomatoes",
-                    "Cucumbers",
-                    "Shredded Carrots",
-                    "Bell Peppers",
-                    "Red Onions"
+                    "Coconut Pineapple Pancakes"
                 ]
             }
         },
-        "Hewitt": {
-            "hours": "10:30 AM to 3:00 PM",
+        "Faculty House": {
+            "hours": "11:00 AM to 2:30 PM",
             "menu": {
-                "500 Degrees": [
-                    "Chicken Caesar Pizza",
-                    "Mushroom Pizza",
-                    "Cheeseburger Pizza"
-                ],
-                "Homestyle": [
-                    "French Toast",
-                    "Buttermilk Pancakes",
-                    "Belgian Waffles",
-                    "Tofu Scramble",
-                    "Veggie Sausage Patty"
-                ],
-                "Flame": [
-                    "Scrambled Eggs",
-                    "Free Range Eggs",
-                    "Egg White Omelet",
-                    "Chopped Onion",
-                    "Diced Red Bell Peppers",
-                    "Roasted Mushroom",
-                    "Sauteed Spinach",
-                    "Chopped Tomatoes",
-                    "Cheddar Cheese",
-                    "Shredded Mozzarella Cheese"
-                ],
-                "Cucina": [
-                    "Scrambled Eggs",
-                    "Chicken Sausage Patty",
-                    "Tater Tots",
-                    "Texas BBQ Brisket",
-                    "Steamed Rice",
-                    "Roasted Vegetable Mix"
-                ],
-                "Delicious Without": [
-                    "Cubed Pineapple",
-                    "Cubed Watermelon",
-                    "Mixed Berries",
-                    "Raisins",
-                    "Golden Raisins",
-                    "Dried Cranberries",
-                    "Sugar, In The Raw",
-                    "Oatmeal",
-                    "Lemon Rosemary Chicken Breast",
-                    "Roasted Brussels Sprouts",
-                    "Roasted Butternut Squash",
-                    "Oat Milk Chia Seed Pudding",
-                    "Overnight Chia and Oats",
-                    "Strawberry Oatmeal Crisp"
-                ],
-                "Fresh 52": [
-                    "Spring Mix",
-                    "Chopped Romaine Lettuce",
-                    "Baby Spinach",
-                    "Sliced Red Onion",
-                    "Sliced Cucumber",
-                    "Cherry Tomatoes",
-                    "Mandarin Orange Sections",
-                    "Croutons",
-                    "Fat Free Raspberry Dressing",
-                    "Fat Free Italian Dressing",
-                    "Buttermilk Ranch Dressing",
-                    "Caesar Dressing",
-                    "Balsamic Vinegar",
-                    "Extra Virgin Olive Oil"
-                ],
-                "Soup": [
-                    "Vegetarian Vegetable Soup",
-                    "Beef Chili",
-                    "Crackers, Saltine, 2 CT, Zesta",
-                    "Crackers, Oyster, Zesta, Keebler, 0.5 oz"
+                "Daily Offerings": [
+                    "Beef Bolognaise",
+                    "Tofu Chili",
+                    "Linguine in Garlic Oil",
+                    "Mixed Vegetables",
+                    "Couscous Pilaf",
+                    "Garlic Bread"
                 ]
             }
         },
         "Grace Dodge": {
-            "hours": "11:00 AM to 7:00 PM (Mon-Thu)",
+            "hours": "11:00 AM to 7:00 PM",
             "menu": {
+                "Hot Station": [
+                    "Vegan Yellow Curry",
+                    "Chicken Green Curry",
+                    "Red Curry",
+                    "Steamed Jasmine Rice",
+                    "Yakisoba Noodles",
+                    "Toppings"
+                ],
                 "Salad Station": [
                     "Mixed Greens",
                     "Tomatoes",
@@ -407,79 +328,69 @@
                 ]
             }
         },
-
-        "Diana": {
-            "hours": "12:00 PM to 8:00 PM",
-            "menu": {}
-        },
-        "Chef Don's": {
-            "hours": "Closed for lunch",
-            "menu": {}
-        }
-    },
-    "dinner": {
-        "Ferris Booth Commons": {
-            "hours": "5:00 PM to close",
+        "Johnny's": {
+            "hours": "11:00 AM to 2:00 PM",
             "menu": {
-                "Pasta and Pizza Stations": [
-                    "Custom Pasta Dish",
-                    "Pizza Slice"
-                ],
-    
-                "Salad Bar": [
-                    "Romaine Lettuce",
-                    "Cherry Tomatoes",
-                    "Cucumbers",
-                    "Shredded Carrots",
-                    "Bell Peppers",
-                    "Red Onions"
+                "Lunch Service": [
+                    "Chicken Mandi",
+                    "chicken mandi, saffron couscous, roasted cauliflower, topped with tomato chutney",
+                    "Mahshi",
+                    "mahshi (stuffed pepper with rice and chickpeas), saffron couscous, roasted cauliflower, topped with tomato chutney",
+                    "Served with a Side of",
+                    "Fresh Fruit GF VN H Oreo Cookies VN S"
                 ]
             }
         },
-
-
-        "Faculty House": {
-            "hours": "Closed for dinner",
-            "menu": {}
-        },
-        "Chef Mike's": {
-            "hours": "Closed for dinner",
-            "menu": {}
-        },
-        "Johnny's": {
-            "hours": "Hours not available",
-            "menu": {}
-        },
         "Fac Shack": {
-            "hours": "Closed for dinner",
-            "menu": {}
+            "hours": "11:30 AM to 7:00 PM",
+            "menu": {
+                "Daily Offerings": [
+                    "Chicken Vindaloo",
+                    "Aloo Gobhi",
+                    "Chana Masala",
+                    "Saffron Rice"
+                ],
+                "Daily Meal Package": [
+                    "Chicken Meal",
+                    "Rice",
+                    "Mixed Vegetables",
+                    "Apple",
+                    "Banana"
+                ]
+            }
         },
         "John Jay": {
-            "hours": "5:00 PM to 9:00 PM",
+            "hours": "11:00 AM to 2:30 PM",
             "menu": {
                 "Main Line": [
-                    "Chicken Picatta",
-                    "Roasted Brussel Sprouts",
-                    "Penne with Herbed Garlic Oil",
-                    "Farro",
-                    "Black Beans"
+                    "Jerk Chicken",
+                    "Pumpkin Rice",
+                    "Cauliflower",
+                    "Bulgar",
+                    "White Beans"
                 ],
                 "Halal Station": [
-                    "Chicken Picatta",
-                    "Roasted Brussel Sprouts",
-                    "Penne with Herbed Garlic Oil"
+                    "Jerk Chicken",
+                    "Pumpkin Rice",
+                    "Cauliflower"
                 ],
                 "Gluten Free Station": [
-                    "Chicken Picatta",
-                    "Roasted Brussel Sprouts",
-                    "GF Pasta with Herbed Garlic Oil"
+                    "Jerk Chicken",
+                    "Cauliflower",
+                    "Pumpkin Rice"
                 ],
                 "Vegan Station": [
-                    "Vegan Chicken Picatta",
-                    "Roasted Brussel Sprouts",
-                    "Roasted Brussel Sprouts"
+                    "Vegan Jerk Chicken",
+                    "Cauliflower",
+                    "Pumpkin Rice"
                 ],
                 "Pasta Station": [
+                    "Marinara Sauce",
+                    "Mushroom Cream Sauce",
+                    "Garlic Oil",
+                    "Fettuccini",
+                    "Whole Wheat Pasta",
+                    "Turkey Bolognese",
                     "Marinara Sauce",
                     "Alfredo Sauce",
                     "Garlic Oil",
@@ -488,21 +399,21 @@
                     "Sunday Sauce"
                 ],
                 "Soup Station": [
-                    "Pasta E Fagioli",
-                    "Roasted Cauliflower"
+                    "Chicken Corn",
+                    "Garden Vegetable Soup"
                 ],
                 "Fusion Station": [
-                    "Korean BBQ Beef",
-                    "Korean BBQ Seitan",
-                    "Kimchi Fried Rice",
-                    "Garlic Green Beans"
+                    "Chicken Banh Mi",
+                    "Vegan Chicken Banh Mi",
+                    "Sticky Rice",
+                    "Bok Choy"
                 ],
                 "Action Station": [
-                    "Mongolian Beef Burrito"
+                    "Chicken Biryani"
                 ],
                 "Grill": [
-                    "French Toast Bar",
-                    "Vegan Burger",
+                    "Tuna Melt",
+                    "Vegan Sausage",
                     "Grilled Cheese Bar"
                 ],
                 "Salad Bar": [
@@ -513,28 +424,26 @@
                     "Bell Peppers",
                     "Red Onions"
                 ]
-    
             }
         },
         "Hewitt": {
-            "hours": "4:30 PM to 8:00 PM",
+            "hours": "11:00 AM to 2:30 PM",
             "menu": {
                 "500 Degrees": [
                     "Cheese Pizza",
-                    "Chef's Choice",
-                    "Cheese Pizza",
-                    "Grilled Veggie Pizza"
+                    "Barbecue Chicken Pizza",
+                    "Grilled Veggie Pizza",
+                    "2Mato's Vegan Veggie Pizza",
+                    "Parmesan Cheese",
+                    "Crushed Red Pepper",
+                    "Dried Oregano"
                 ],
                 "Homestyle": [
-                    "Philly Cheese Steak",
-                    "Crispy Chicken Wings",
-                    "Sweet Heat Buffalo Wing Sauce",
-                    "French Fries",
-                    "Crispy Baked Tofu",
-                    "Cajun Rub",
-                    "Roasted Vegetables",
-                    "Crispy Tortilla Chips",
-                    "Cheese Sauce"
+                    "Herb Roasted Turkey Breast",
+                    "Grilled Tofu",
+                    "Steamed Green Beans",
+                    "Garlic Mashed Potatoes",
+                    "Country Gravy"
                 ],
                 "Flame": [
                     "Hamburger Patty",
@@ -546,25 +455,56 @@
                     "Lettuce Leaf",
                     "Meatless Black Bean Burger",
                     "3/8\" French Fries, Fried",
-                    "Grilled Tater Wedges"
+                    "Grilled Tater Wedges",
+                    "Carolina Pulled Chicken Sandwich",
+                    "Crepe"
                 ],
                 "Cucina": [
                     "Spaghetti with Marinara Sauce",
-                    "Penne Alfredo Primavera",
-                    "Vegan Meatballs",
+                    "Pasta Primavera",
                     "Beef Bolognese Sauce",
-                    "Manicotti with Marinara"
+                    "Vegetable Lasagna with Blush Sauce",
+                    "Vegan Meatballs"
                 ],
                 "Delicious Without": [
-                    "Lemon Rosemary Chicken Breast",
-                    "Three Bean Vegetarian Chili",
-                    "White Rice",
-                    "Roasted Vegetable Mix",
-                    "Garden Salad",
-                    "Chickpea Salad",
-                    "Kale Salad",
+                    "Chicken Adovada with Tortilla Chips",
+                    "Spicy Black Beans",
+                    "cilantro lime rice",
+                    "Vegetable Medley",
+                    "Pico de Gallo",
+                    "Guacamole",
+                    "Balsamic Roasted Root Vegetables",
                     "Oat Milk Chia Seed Pudding",
-                    "Overnight Chia and Oats"
+                    "Strawberry Overnight Chia Oats"
+                ],
+                "The Sweet Shoppe": [
+                    "Chocolate Croissant",
+                    "Assorted Danish",
+                    "Blueberry Muffin",
+                    "Cranberry Muffin",
+                    "Cinnamon Roll",
+                    "S'mores Cookies"
+                ],
+                "Fuel": [
+                    "Cubed Pineapple",
+                    "Cubed Cantaloupe",
+                    "Cubed Honeydew",
+                    "Tzatziki Sauce",
+                    "Celery Sticks",
+                    "Garlic Hummus"
+                ],
+                "Salad Bar": [
+                    "Mixed Field Greens",
+                    "Baby Spinach",
+                    "Romaine Blend",
+                    "Chopped Kale",
+                    "Sliced Cucumber",
+                    "Grape Tomatoes",
+                    "Fresh Carrot Sticks",
+                    "Vegetable Lo Mein",
+                    "Three Bean Salad",
+                    "Roasted Corn",
+                    "PAOW Soy and Vegetable Stir Fry"
                 ],
                 "Fresh 52": [
                     "Spring Mix",
@@ -580,27 +520,468 @@
                     "Buttermilk Ranch Dressing",
                     "Caesar Dressing",
                     "Balsamic Vinegar",
-                    "Extra Virgin Olive Oil"
+                    "Extra Virgin Olive Oil",
+                    "Tortilla Chips",
+                    "Blueberries",
+                    "Blackberries",
+                    "Strawberries"
+                ],
+                "Desserts": [
+                    "Peppermint Ganache Brownie",
+                    "Red Velvet Cake",
+                    "Chocolate Brownie",
+                    "Blondie"
                 ],
                 "Soup": [
-                    "Vegetarian Vegetable Soup",
-                    "Beef Chili",
+                    "Broccoli Cheddar Soup",
+                    "Pacific Trader Shrimp Soup",
                     "Crackers, Saltine, 2 CT, Zesta",
                     "Crackers, Oyster, Zesta, Keebler, 0.5 oz"
                 ]
             }
         },
-        "Grace Dodge": {
-            "hours": "Closed for dinner",
-            "menu": {}
+        "Chef Mike's": {
+            "hours": "10:30 AM to 10:00 PM",
+            "menu": {
+                "Build Your Own - Right Line": [
+                    "Protein",
+                    "Turkey, Roast beef, Tuna, Ham, Buffalo Chicken, Grilled Vegetables, Chipotle Tofu, Italian Tofu",
+                    "Cheese",
+                    "Swiss, American, Pepper Jack, Provolone, Cheddar",
+                    "Toppings",
+                    "Lettuce, Tomato, Red Onion, Banana Peppers, Roasted Red Peppers, Guacamole, Jalapeños, Hummus",
+                    "Dressings",
+                    "Red Wine Vinegar, Balsamic Vinegar, Olive Oil, Mayo, Mustard"
+                ],
+                "Cold Counter - Middle Line": [
+                    "BLT",
+                    "Bacon, Shredded Lettuce, Tomato, and Mayo",
+                    "Quinoa, Beans, Roasted Eggplant, w/ Grilled Veggies",
+                    "Roasted Eggplant, Black Beans, Cannellini, White Quinoa, Red Quinoa, Zucchini, Yellow Squash, Arugula"
+                ],
+                "Hot Counter - Left Line": [
+                    "Mike's Hot Honey Chicken",
+                    "Breaded Chicken, Mozzarella Cheese, Mike’s Hot Honey",
+                    "Buffalo Cauliflower",
+                    "Cauliflower, Frank’s Hot Sauce, Arugula, French Crispy Onions & Vegan Cheese"
+                ]
+            }
         },
         "Diana": {
-            "hours": "12:00 PM to 8:00 PM",
-            "menu": {}
+            "hours": "12:00 PM to 3:00 PM",
+            "menu": {
+                "Pizza": [
+                    "Margherita Pizza",
+                    "Shredded Mozzarella Cheese",
+                    "Sliced Pepperoni",
+                    "Sausage Pork Crumbles",
+                    "Grilled Chicken",
+                    "Diced Ham",
+                    "Plum Tomato",
+                    "Sliced Mushrooms",
+                    "Sliced Black Olives",
+                    "Chopped Spinach",
+                    "Roasted Red Peppers",
+                    "Diced Red Onion",
+                    "Chopped Chinese Broccoli",
+                    "Nut Free Basil Pesto Sauce"
+                ],
+                "Homestyle": [
+                    "Harissa Grilled Chicken",
+                    "Baked Falafel",
+                    "White Rice",
+                    "Roasted Vegetables",
+                    "Cucumber Raita",
+                    "White Pita Bread"
+                ],
+                "Sono": [
+                    "Yellow Rice",
+                    "Black Beans",
+                    "Cilantro Pesto Tofu",
+                    "Pulled Chicken",
+                    "Beef Taco Meat",
+                    "Cheese Quesadillas",
+                    "Chicken Quesadilla",
+                    "CHE 19 Hard Shell Beef Taco"
+                ],
+                "Sono Bar": [
+                    "Guacamole",
+                    "Mild Picante Salsa",
+                    "Sliced Jalapeno",
+                    "Sour Cream",
+                    "Pico de Gallo",
+                    "Cheddar Cheese",
+                    "Diced Red Onions",
+                    "Roasted Salsa Verde",
+                    "Chipotle Sour Cream",
+                    "Shredded Iceberg Lettuce"
+                ]
+            }
         },
         "Chef Don's": {
+            "hours": "11:00 AM to 6:00 PM",
+            "menu": {
+                "Entree": [
+                    "Build your own pizza",
+                    "Toasted Cuban sandwich"
+                ],
+                "Sides": [
+                    "Piece of fruit",
+                    "Soup",
+                    "Milkshake",
+                    "Freestyle machine beverage",
+                    "Dessert"
+                ]
+            }
+        }
+    },
+    "dinner": {
+        "Ferris": {
+            "hours": "5:00 PM to 8:00 PM",
+            "menu": {
+                "Main Line": [
+                    "Chicken Parm",
+                    "Potatoes, Onions, Peppers",
+                    "Baked Ziti",
+                    "Red Beans",
+                    "Garlic Broccoli"
+                ],
+                "Vegan Station": [
+                    "Vegan Chicken Parm",
+                    "Vegan Baked Ziti",
+                    "Garlic Broccoli"
+                ],
+                "Action Station": [
+                    "BBQ Dry Rub Ribs: with mac and cheese, corn bread, cole slaw"
+                ]
+            }
+        },
+        "JJ's": {
+            "hours": "12:00 PM to midnight",
+            "menu": {
+                "Main Line": [
+                    "JJ's Fish and Chips",
+                    "JJ's Garbage Plate",
+                    "Chicken Bacon Ranch Sandwich",
+                    "Spinach Artichoke Dip",
+                    "Root Vegetable Wrap",
+                    "Fresh Glazed Donuts"
+                ],
+                "Fry Station": [
+                    "Chicken Wings",
+                    "Sweet Potato Fries",
+                    "Crinkle Cut Fries"
+                ],
+                "Grill": [
+                    "Coconut Pineapple Pancakes"
+                ]
+            }
+        },
+        "Faculty House": {
             "hours": "Closed for dinner",
             "menu": {}
+        },
+        "Grace Dodge": {
+            "hours": "11:00 AM to 7:00 PM",
+            "menu": {
+                "Hot Station": [
+                    "Vegan Yellow Curry",
+                    "Chicken Green Curry",
+                    "Red Curry",
+                    "Steamed Jasmine Rice",
+                    "Yakisoba Noodles",
+                    "Toppings"
+                ]
+            }
+        },
+        "Johnny's": {
+            "hours": "Closed for dinner",
+            "menu": {}
+        },
+        "Fac Shack": {
+            "hours": "4:00 PM to 7:00 PM",
+            "menu": {
+                "Daily Offerings": [
+                    "Chicken Vindaloo",
+                    "Aloo Gobhi",
+                    "Chana Masala",
+                    "Saffron Rice"
+                ]
+            }
+        },
+        "John Jay": {
+            "hours": "5:00 PM to 9:00 PM",
+            "menu": {
+                "Main Line": [
+                    "Beef Chili",
+                    "Garlic Rice",
+                    "Mixed Grains",
+                    "Roasted Vegetables",
+                    "Garbanzo Beans"
+                ],
+                "Halal Station": [
+                    "Beef Chili",
+                    "Roasted Vegetables",
+                    "Garlic Rice"
+                ],
+                "Gluten Free Station": [
+                    "Beef Chili",
+                    "Roasted Vegetables",
+                    "Garlic Rice"
+                ],
+                "Vegan Station": [
+                    "Tempeh Cacciatore",
+                    "Roasted Vegetables",
+                    "Garlic Rice"
+                ],
+                "Pasta Station": [
+                    "Marinara Sauce",
+                    "Mushroom Cream Sauce",
+                    "Garlic Oil",
+                    "Fettuccini",
+                    "Whole Wheat Pasta",
+                    "Turkey Bolognese"
+                ],
+                "Soup Station": [
+                    "Chicken Corn",
+                    "Garden Vegetable Soup"
+                ],
+                "Fusion Station": [
+                    "Chicken Banh Mi",
+                    "Vegan Chicken Banh Mi",
+                    "Sticky Rice",
+                    "Bok Choy"
+                ],
+                "Action Station": [
+                    "Chicken Biryani"
+                ],
+                "Grill": [
+                    "Tuna Melt",
+                    "Vegan Sausage",
+                    "Grilled Cheese Bar"
+                ],
+                "Salad Bar": [
+                    "Romaine Lettuce",
+                    "Cherry Tomatoes",
+                    "Cucumbers",
+                    "Shredded Carrots",
+                    "Bell Peppers",
+                    "Red Onions"
+                ]
+            }
+        },
+        "Hewitt": {
+            "hours": "4:30 PM to 8:00 PM",
+            "menu": {
+                "500 Degrees": [
+                    "Cheese Pizza",
+                    "Barbecue Chicken Pizza",
+                    "Grilled Veggie Pizza",
+                    "Tomato Pie Style Pizza",
+                    "Parmesan Cheese",
+                    "Crushed Red Pepper",
+                    "Dried Oregano"
+                ],
+                "Homestyle": [
+                    "Flank Steak",
+                    "Herb Crusted Tofu",
+                    "Macaroni & Cheese",
+                    "Roasted Sweet Potatoes",
+                    "Steamed Broccoli"
+                ],
+                "Flame": [
+                    "Hamburger Patty",
+                    "Whole Wheat Hamburger Bun",
+                    "American Cheese Slice",
+                    "Hot Dog",
+                    "Grilled Chicken",
+                    "Sliced Red Onion",
+                    "Lettuce Leaf",
+                    "Meatless Black Bean Burger",
+                    "3/8\" French Fries, Fried",
+                    "Grilled Tater Wedges",
+                    "Carolina Pulled Chicken Sandwich",
+                    "Fried Fish"
+                ],
+                "Cucina": [
+                    "Spaghetti with Marinara Sauce",
+                    "Pasta Primavera",
+                    "Manicotti with Marinara Sauce",
+                    "Meatballs",
+                    "Vegan Meatballs"
+                ],
+                "Delicious Without": [
+                    "Beef Stew",
+                    "Three Bean Chili",
+                    "Roasted Sweet Potatoes",
+                    "Roasted Vegetables",
+                    "Spinach Salad Entree",
+                    "Garden Salad",
+                    "Red Quinoa, Corn, Tomatoes",
+                    "Oat Milk Chia Seed Pudding",
+                    "Overnight Chia and Oats"
+                ],
+                "The Sweet Shoppe": [
+                    "Maraschino Cherries",
+                    "Blueberries",
+                    "Sliced Peaches",
+                    "Pineapple Tidbits",
+                    "Strawberry Compote",
+                    "Whipped Cream"
+                ],
+                "Fuel": [
+                    "Assorted Danish",
+                    "Pound Cake",
+                    "Chocolate Brownie",
+                    "Crumbled Blueberry Loaf",
+                    "Chocolate Cupcake",
+                    "Vanilla Cupcake",
+                    "Red Velvet Cupcake",
+                    "Cheese Danish",
+                    "Blueberry Muffin",
+                    "Lemon Pound Cake"
+                ],
+                "Salad Bar": [
+                    "Cubed Pineapple",
+                    "Cubed Cantaloupe",
+                    "Cubed Honeydew",
+                    "Mixed Field Greens",
+                    "Romaine Blend",
+                    "Shredded Carrots",
+                    "Sliced Cucumber",
+                    "Grape Tomatoes",
+                    "Fresh Carrot Sticks",
+                    "Vegetable Lo Mein",
+                    "Black Bean and Corn Salad",
+                    "Coleslaw"
+                ],
+                "Fresh 52": [
+                    "Spring Mix",
+                    "Chopped Romaine Lettuce",
+                    "Baby Spinach",
+                    "Sliced Red Onion",
+                    "Sliced Cucumber",
+                    "Cherry Tomatoes",
+                    "Mandarin Orange Sections",
+                    "Croutons",
+                    "Fat Free Raspberry Dressing",
+                    "Fat Free Italian Dressing",
+                    "Buttermilk Ranch Dressing",
+                    "Caesar Dressing",
+                    "Balsamic Vinegar",
+                    "Extra Virgin Olive Oil",
+                    "Tortilla Chips",
+                    "Blueberries",
+                    "Blackberries",
+                    "Strawberries"
+                ],
+                "Desserts": [
+                    "Peppermint Ganache Brownie",
+                    "Red Velvet Cake",
+                    "Chocolate Brownie",
+                    "Blondie"
+                ],
+                "Soup": [
+                    "Broccoli Cheddar Soup",
+                    "Pacific Trader Shrimp Soup",
+                    "Crackers, Saltine, 2 CT, Zesta",
+                    "Crackers, Oyster, Zesta, Keebler, 0.5 oz"
+                ]
+            }
+        },
+        "Chef Mike's": {
+            "hours": "10:30 AM to 10:00 PM",
+            "menu": {
+                "Build Your Own - Right Line": [
+                    "Protein",
+                    "Turkey, Roast beef, Tuna, Ham, Buffalo Chicken, Grilled Vegetables, Chipotle Tofu, Italian Tofu",
+                    "Cheese",
+                    "Swiss, American, Pepper Jack, Provolone, Cheddar",
+                    "Toppings",
+                    "Lettuce, Tomato, Red Onion, Banana Peppers, Roasted Red Peppers, Guacamole, Jalapeños, Hummus",
+                    "Dressings",
+                    "Red Wine Vinegar, Balsamic Vinegar, Olive Oil, Mayo, Mustard"
+                ],
+                "Cold Counter - Middle Line": [
+                    "BLT",
+                    "Bacon, Shredded Lettuce, Tomato, and Mayo",
+                    "Quinoa, Beans, Roasted Eggplant, w/ Grilled Veggies",
+                    "Roasted Eggplant, Black Beans, Cannellini, White Quinoa, Red Quinoa, Zucchini, Yellow Squash, Arugula"
+                ],
+                "Hot Counter - Left Line": [
+                    "Mike's Hot Honey Chicken",
+                    "Breaded Chicken, Mozzarella Cheese, Mike’s Hot Honey",
+                    "Buffalo Cauliflower",
+                    "Cauliflower, Frank’s Hot Sauce, Arugula, French Crispy Onions & Vegan Cheese"
+                ]
+            }
+        },
+        "Diana": {
+            "hours": "5:00 PM to 12:00 AM",
+            "menu": {
+                "Pizza": [
+                    "Margherita Pizza",
+                    "Shredded Mozzarella Cheese",
+                    "Sliced Pepperoni",
+                    "Sausage Pork Crumbles",
+                    "Grilled Chicken",
+                    "Diced Ham",
+                    "Plum Tomato",
+                    "Sliced Mushrooms",
+                    "Sliced Black Olives",
+                    "Chopped Spinach",
+                    "Roasted Red Peppers",
+                    "Diced Red Onion",
+                    "Chopped Chinese Broccoli",
+                    "Nut Free Basil Pesto Sauce"
+                ],
+                "Homestyle": [
+                    "Harissa Grilled Chicken",
+                    "Baked Falafel",
+                    "Basmati Rice",
+                    "Roasted Vegetables",
+                    "Cucumber Raita",
+                    "White Pita Bread"
+                ],
+                "Sono": [
+                    "Yellow Rice",
+                    "Black Beans",
+                    "Cilantro Pesto Tofu",
+                    "Pulled Chicken",
+                    "Beef Taco Meat",
+                    "Cheese Quesadillas",
+                    "Chicken Quesadilla",
+                    "CHE 19 Hard Shell Beef Taco"
+                ],
+                "Sono Bar": [
+                    "Guacamole",
+                    "Mild Picante Salsa",
+                    "Sliced Jalapeno",
+                    "Sour Cream",
+                    "Pico de Gallo",
+                    "Cheddar Cheese",
+                    "Diced Red Onions",
+                    "Roasted Salsa Verde",
+                    "Chipotle Sour Cream",
+                    "Shredded Iceberg Lettuce"
+                ]
+            }
+        },
+        "Chef Don's": {
+            "hours": "11:00 AM to 6:00 PM",
+            "menu": {
+                "Entree": [
+                    "Build your own pizza",
+                    "Toasted Cuban sandwich"
+                ],
+                "Sides": [
+                    "Piece of fruit",
+                    "Soup",
+                    "Milkshake",
+                    "Freestyle machine beverage",
+                    "Dessert"
+                ]
+            }
         }
     }
 }
