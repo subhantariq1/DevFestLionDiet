@@ -3,7 +3,7 @@
 # I need to change the current meal recommender to a weekly plan that only includes the meals that are available every day
     # Completed: Add new file with standardized meals
     # Completed: write python code for merging new file with scraped data file 
-    # Run/Test application so far
+    # Completed: Run/Test application so far
     # Add Barnard Dining Halls for standardized data
     # Prompt Engineering to overcome issue of too much data for API
 
@@ -12,13 +12,13 @@
     # Somehow link the api to the real time online data of the menus 
     #Somehow make sure that it can also look at the json file to see what general everyday meals are available, to see whethter there are suggestion from there that it can give
 
-# Change Groq api to gemini 
+# Completed: Change Groq api to gemini 
 
 # Consider adding a feature like voice chat: where you converse with the AI (It asks you the input questions, receives answers, processes them and suggest a plan/meal
 
 # Consider making it able to diversify meals (eg from JohnJay 200g salad, 300g noodles with tomato sauce, and a banana)
 
-# Add more options for user input: They should be able to select their dining plan and the api should usggest something based on this restriction.
+# Add more options for user input: They should be able to select their dining plan and the api should suggest something based on this restriction.
 
 # Think about this problem: I am creating a weekly plan, but many meals are only published on the day, so the weekly plan will only include standardized meals - perhaps calculate the likelihood of a certain meal being at a certain location (e.g chicken at JohnJay)
 
@@ -27,7 +27,8 @@ import json
 import requests
 import os
 from dotenv import load_dotenv
-from groq import Groq
+import google.generativeai as genai
+
 
 exec(open("webScraping.py").read())
 
@@ -74,23 +75,15 @@ else:
 # Retrieve API Key from environment variable
 # Note: Look at this api implementation and compare it to BankAccount.py usage
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+genai.configure(api_key=GEMINI_API_KEY)
 
-# Function to call Groq's API
-# Note: Change to Gemini API
-def chat_with_groq(system_prompt, user_prompt):
-    messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_prompt}
-    ]
+# Function to call Gemini's API
+def chat_with_gemini(system_prompt, user_prompt):
+    model = genai.GenerativeModel("gemini-1.5-flash")
+    response = model.generate_content([system_prompt, user_prompt])
 
-    response = client.chat.completions.create(
-        messages=messages,
-        model="mixtral-8x7b-32768",
-    )
-
-    return response.choices[0].message.content if response else None
+    return response.text if response else None
 
 # Step 1: Determine Nutritional Needs & Recommend a Meal
 def get_meal_recommendation(user_age, user_weight_kg, user_height_cm, user_exercise_level, user_goal, meal_time):
@@ -117,7 +110,7 @@ def get_meal_recommendation(user_age, user_weight_kg, user_height_cm, user_exerc
     And explain why this meal is recommended in 1-2 sentences.
     """
 
-    response = chat_with_groq(system_prompt, user_prompt)
+    response = chat_with_gemini(system_prompt, user_prompt)
     return response
 
 # Streamlit Button for Meal Recommendation
