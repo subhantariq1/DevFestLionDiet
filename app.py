@@ -14,7 +14,13 @@
     # Somehow link the api to the real time online data of the menus 
     #Somehow make sure that it can also look at the json file to see what general everyday meals are available, to see whethter there are suggestion from there that it can give
 
-# Change it to scrape from columbia dining rather than liondiet. They are competitors!!
+# Change it to scrape from columbia dining rather than liondiet. They are my competitors!!
+
+# Following format:
+# Home page - similar to LionDine, list daily offerings
+# Next page/or on home page bottom - daily meal recommender
+# Next page weekly meal recommender
+# Add some type of innovative feature (people can make accounts and give live recommendations/comments on food...
 
 # Change Groq api to gemini 
 
