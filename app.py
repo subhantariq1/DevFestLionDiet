@@ -4,6 +4,7 @@
     # Completed: Add new file with standardized meals
     # Completed: write python code for merging new file with scraped data file 
     # Completed: Run/Test application so far
+    # Program should ask user to input data completely if they left it empty somewhere
     # Add Barnard Dining Halls for standardized data
     # Prompt Engineering to overcome issue of too much data for API
 
@@ -13,6 +14,8 @@
     #Somehow make sure that it can also look at the json file to see what general everyday meals are available, to see whethter there are suggestion from there that it can give
 
 # Completed: Change Groq api to gemini 
+
+# Change to a different gemini model
 
 # Consider adding a feature like voice chat: where you converse with the AI (It asks you the input questions, receives answers, processes them and suggest a plan/meal
 
