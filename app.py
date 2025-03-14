@@ -1,3 +1,8 @@
+# General Note for App layout:
+# Main page: Daily plan like LionDine. Addditionally meal recommender at bottom of page
+# Next page: weekly diet plan recommender
+# Login option (saving data and plans)
+
 # Note: there are many notes in this file which I need to implement
 
 # I need to change the current meal recommender to a weekly plan that only includes the meals that are available every day
