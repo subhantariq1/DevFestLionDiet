@@ -9,7 +9,7 @@
     # Completed: Add new file with standardized meals
     # Completed: write python code for merging new file with scraped data file 
     # Completed: Run/Test application so far
-    # Program should ask user to input data completely if they left it empty somewhere
+    # Completed: Program should ask user to input data completely if they left it empty somewhere
     # Add Barnard Dining Halls for standardized data
     # Prompt Engineering to overcome issue of too much data for API
 
