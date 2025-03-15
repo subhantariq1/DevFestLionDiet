@@ -57,16 +57,60 @@ st.title("Columbia Dining Meal Recommender")
 st.write("Find meal options available based on your dining preferences!")
 
 # User Inputs
-user_age = st.number_input("What is your age?", min_value=0, step=1)
-user_weight_lbs = st.number_input("What is your weight in pounds?", min_value=0, step=1)
-user_height_inches = st.number_input("What is your height in inches?", min_value=0, step=1)
+user_age = st.text_input("What is your age?", placeholder="Enter your age here")
+
+# Validate input and ensure it's a positive number
+if user_age:
+    try:
+        user_age = float(user_age)
+        if user_age <= 0:
+            st.error("Please enter a valid age greater than 0.")
+    except ValueError:
+        st.error("Please enter a numeric value.")
+    
+user_weight_lbs = st.text_input("What is your weight in pounds?", placeholder="Enter your weight here")
+if user_weight_lbs:
+    try:
+        user_weight_lbs = float(user_weight_lbs)
+        if user_weight_lbs <= 0:
+            st.error("Please enter a valid weight greater than 0.")
+    except ValueError:
+        st.error("Please enter a numeric value.")
+
+user_height_inches = st.text_input("What is your height in inches?", placeholder="Enter your height here")
+if user_height_inches:
+    try:
+        user_height_inches = float(user_height_inches)
+        if user_height_inches <= 0:
+            st.error("Please enter a valid height greater than 0.")
+    except ValueError:
+        st.error("Please enter a numeric value.")
+
 meal_time = st.selectbox("Select Meal Time", ["breakfast", "lunch", "dinner"])
+
 user_goal = st.selectbox("Select Weight Goal", ["lose weight", "gain weight", "maintain"])
-user_exercise_hours = st.number_input("How many hours do you exercise per week?", min_value=0, step=1)
+
+user_exercise_hours = st.text_input("How many hours do you exercise per week?", placeholder="Enter hours here")
+# Convert input to float safely
+try:
+    user_exercise_hours = float(user_exercise_hours) if user_exercise_hours else 0  # Default to 0 if empty
+    if user_exercise_hours < 0:
+        st.error("Please enter a valid number of hours.")
+except ValueError:
+    st.error("Please enter a numeric value.")
+    user_exercise_hours = 0  # Ensure it's a valid number
+
 
 # Convert user inputs to metric system
-user_weight_kg = round(user_weight_lbs * 0.453592, 2)
-user_height_cm = round(user_height_inches * 2.54, 2)
+if user_weight_lbs and user_height_inches:
+    try:
+        user_weight_kg = round(float(user_weight_lbs) * 0.453592, 2)
+        user_height_cm = round(float(user_height_inches) * 2.54, 2)
+    except ValueError:
+        st.error("Invalid input detected. Please enter numbers only.")
+else:
+    user_weight_kg = None
+    user_height_cm = None
 
 # Map exercise hours to activity level
 if user_exercise_hours == 0:
