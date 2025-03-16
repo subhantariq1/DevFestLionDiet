@@ -1,35 +1,6 @@
-# General Note for App layout:
-# Main page: Daily plan like LionDine. Addditionally meal recommender at bottom of page
-# Next page: weekly diet plan recommender
-# Login option (saving data and plans)
-
-# Note: there are many notes in this file which I need to implement
-
-# I need to change the current meal recommender to a weekly plan that only includes the meals that are available every day
-    # Completed: Add new file with standardized meals
-    # Completed: write python code for merging new file with scraped data file 
-    # Completed: Run/Test application so far
-    # Completed: Program should ask user to input data completely if they left it empty somewhere
-    # Add Barnard Dining Halls for standardized data
-    # Prompt Engineering to overcome issue of too much data for API
-
-# Create another funcitonality of the app where the user can get one meal recommendations (instead of a weekly plan) 
-    # For this function, I need to make sure that the application recommends a meal by reading the website in real time to see the current open locations and menus
-    # Somehow link the api to the real time online data of the menus 
-    #Somehow make sure that it can also look at the json file to see what general everyday meals are available, to see whethter there are suggestion from there that it can give
-
-# Completed: Change Groq api to gemini 
-
-# Change to a different gemini model
-
-# Consider adding a feature like voice chat: where you converse with the AI (It asks you the input questions, receives answers, processes them and suggest a plan/meal
-
-# Consider making it able to diversify meals (eg from JohnJay 200g salad, 300g noodles with tomato sauce, and a banana)
-
-# Add more options for user input: They should be able to select their dining plan and the api should suggest something based on this restriction.
-
-# Think about this problem: I am creating a weekly plan, but many meals are only published on the day, so the weekly plan will only include standardized meals - perhaps calculate the likelihood of a certain meal being at a certain location (e.g chicken at JohnJay)
-
+# Description: This file contains the Streamlit UI and logic for the Columbia Dining Meal Recommender.
+# It uses the Gemini API to generate responses and provide meal recommendations based on user inputs.
+ 
 import streamlit as st
 import json
 import requests
