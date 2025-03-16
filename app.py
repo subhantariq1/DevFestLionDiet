@@ -103,7 +103,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 
 # Function to call Gemini's API
 def chat_with_gemini(system_prompt, user_prompt):
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.0-flash")
     response = model.generate_content([system_prompt, user_prompt])
 
     return response.text if response else None
