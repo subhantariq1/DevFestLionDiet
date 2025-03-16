@@ -73,6 +73,7 @@ except ValueError:
 
 
 # Convert user inputs to metric system
+# Note: This isn't actually neccessary, but it's a good practice to convert units for consistency
 if user_weight_lbs and user_height_inches:
     try:
         user_weight_kg = round(float(user_weight_lbs) * 0.453592, 2)
