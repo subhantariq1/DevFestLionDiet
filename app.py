@@ -23,14 +23,26 @@ meal_time = st.selectbox("Select a meal time:", ["breakfast", "lunch", "dinner"]
 # Display meals for the selected time
 if meal_data:
     if meal_time in meal_data:
+        # Use columns for better layout
+        st.subheader(f"Menu for {meal_time.capitalize()}")
+
         for dining_hall, hall_info in meal_data[meal_time].items():
-            st.subheader(f"🏛 {dining_hall}")
-            st.write(f"⏰ Hours: {hall_info['hours']}")
-            
-            for category, items in hall_info["menu"].items():
-                with st.expander(f"🍽 {category}"):
+            st.markdown(f"## 🏛 {dining_hall}")
+            st.write(f"⏰ **Hours:** {hall_info['hours']}")
+
+            # Create a grid-like station display
+            st.markdown("### Available Stations & Menu:")
+            cols = st.columns(3)  # Adjust columns based on number of stations
+
+            stations = list(hall_info["menu"].items())  # Convert dictionary to list for indexing
+
+            for index, (station_name, items) in enumerate(stations):
+                with cols[index % 3]:  # Distribute across columns
+                    st.markdown(f"**{station_name}**")
                     for item in items:
                         st.write(f"- {item}")
+
+            st.markdown("---")  # Divider for different dining halls
 
     else:
         st.error(f"No data available for {meal_time}. Try again later.")
@@ -38,4 +50,5 @@ else:
     st.error("Meal data is unavailable. Please check back later.")
 
 # Navigation to Meal Recommender Page
-st.markdown("[👉 Get a Personalized Meal Recommendation](pages/recommender.py)")
+if st.button("🔮 Get a Meal Recommendation"):
+    st.switch_page("pages/recommender.py")
