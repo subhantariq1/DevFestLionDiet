@@ -148,4 +148,4 @@ if st.button("Get Meal Recommendation"):
 
 # Back to Home Page
 if st.button("🏠 Back to Menu"):
-    st.switch_page("../app.py")
+    st.switch_page("app.py")
