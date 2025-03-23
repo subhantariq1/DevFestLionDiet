@@ -1,13 +1,12 @@
 # Description: This file contains the Streamlit UI and logic for the Columbia Dining Meal Recommender.
 # It uses the Gemini API to generate responses and provide meal recommendations based on user inputs.
- 
+
 import streamlit as st
 import json
 import requests
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
-
 
 # Load meal data from JSON file
 @st.cache_data
@@ -68,7 +67,6 @@ try:
 except ValueError:
     st.error("Please enter a numeric value.")
     user_exercise_hours = 0  # Ensure it's a valid number
-
 
 # Convert user inputs to metric system
 # Note: This isn't actually neccessary, but it's a good practice to convert units for consistency
@@ -144,7 +142,6 @@ if st.button("Get Meal Recommendation"):
         st.markdown(meal_recommendation)
     else:
         st.error("Failed to retrieve a meal recommendation. Please try again.")
-
 
 # Back to Home Page
 if st.button("🏠 Back to Menu"):
