@@ -123,7 +123,6 @@ def get_meal_recommendation(user_age, user_weight_kg, user_height_cm, user_exerc
     - Exercise Level: {user_exercise_level}
     - Goal: {user_goal}
 
-
     Use only the meals listed in this JSON file: {meal_data}.  
     Your response should be in this format:  
     Based on the Columbia dining plan, for {meal_time} I recommend [insert food] from [insert dininghall]
