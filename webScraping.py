@@ -1,3 +1,5 @@
+# This file contains the web scraping logic to fetch meal data from Lion Dine's website.
+
 import requests
 from bs4 import BeautifulSoup
 import json
