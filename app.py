@@ -1,3 +1,5 @@
+# This file contains the Streamlit UI and logic for the Columbia Dining Meal Recommender.
+
 import streamlit as st
 import json
 
